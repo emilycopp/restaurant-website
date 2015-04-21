@@ -66,3 +66,11 @@ h1 {
 	background: url("../images/egg-rolls.jpg") center center / cover no-repeat;
 }
 
+.text {
+	font-size: 16pt;
+	background-color: #86603b;
+	margin: 0;
+	padding: 30px 10px 30px;
+}
+
+
