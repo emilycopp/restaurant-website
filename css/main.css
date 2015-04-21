@@ -48,3 +48,21 @@ nav li{
 	color: #86603b;
 }
 
+h1 {
+	margin: 0;
+}
+
+.intro {
+  margin: 0;
+  padding: 3em 15px 2em;
+  background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.6));
+  color: #fff;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+.banner {
+	padding:  calc(2em + 20vw) 0 0;
+	background: url("../images/egg-rolls.jpg") center center / cover no-repeat;
+}
+
