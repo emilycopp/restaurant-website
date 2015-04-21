@@ -124,3 +124,35 @@ li span {
    z-index: -1;
 }
 
+.image-gallery {
+	background-color: #86603b;
+  overflow: hidden;
+}
+
+.gallery {
+	border-radius: 10px;
+  float: left;
+  position: relative;
+  width: 40%;
+  margin: 5%
+}
+
+.content {
+	margin: 10px;
+}
+
+iframe {
+	width: 90%;
+	margin: 5%;
+}
+
+footer {
+	background-color: #532010;
+	background-image: url("../images/logo.svg");
+	background-size: 100px auto;
+	padding-top: 5em;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+
