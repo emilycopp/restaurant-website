@@ -62,7 +62,6 @@ h1 {
 }
 
 .banner {
-	padding:  calc(2em + 20vw) 0 0;
 	background: url("../images/egg-rolls.jpg") center center / cover no-repeat;
 }
 
@@ -115,7 +114,7 @@ li span {
    padding-left: 10px;
 }
 
-.dotted {
+.dotted .dotted-2 .dotted-3{
    border-top: dotted 1px #000;
    position: absolute;
    top: 15px;
@@ -139,6 +138,7 @@ li span {
 
 .content {
 	margin: 10px;
+	float: left;
 }
 
 iframe {
@@ -147,6 +147,7 @@ iframe {
 }
 
 footer {
+	clear: left;
 	background-color: #532010;
 	background-image: url("../images/logo.svg");
 	background-size: 100px auto;
