@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+}
+
+header {
+background-color: #86603b;
+background-image: url("../images/logo.svg");
+background-size: 100px auto;
+padding-top: 5em;
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+nav {
+	background-color: #532010;
+}
+
+nav ul {
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 0;
+}
+
+nav li{
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	margin: 0;
+	width: 32%;
+}
+
+.nav {
+	color: #fff;
+	font-size: 18pt;
+	text-decoration: none;
+}
+
+.nav:hover {
+	color: #86603b;
+}
+
