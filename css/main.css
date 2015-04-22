@@ -55,7 +55,6 @@ h1 {
 .intro {
   margin: 0;
   padding: 3em 15px 2em;
-  background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.6));
   color: #fff;
   font-size: 30pt;
   font-weight: bold;
@@ -96,6 +95,7 @@ h3 {
 	margin: 0;
 }
 li {
+	font-size: 12pt;
 	list-style: none;
 	overflow: hidden;
 	padding: 5px 0;
@@ -111,7 +111,7 @@ li label {
 li span {
    float: right;
    background: #fff;
-   padding-left: 10px;
+   padding-left: 20px;
 }
 
 .dotted .dotted-2 .dotted-3{
@@ -120,7 +120,15 @@ li span {
    top: 15px;
    left: 0;
    width: 100%;
-   z-index: -1;
+   z-index: 5;
+}
+
+.size {
+	padding-right: 10px;
+}
+
+.small {
+	padding-right: 10px;
 }
 
 .image-gallery {
@@ -149,11 +157,11 @@ iframe {
 footer {
 	clear: left;
 	background-color: #532010;
-	background-image: url("../images/logo.svg");
-	background-size: 100px auto;
-	padding-top: 5em;
-	background-repeat: no-repeat;
-	background-position: center top;
 }
 
-
+.logo {
+	width: 100px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
