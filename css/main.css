@@ -123,12 +123,10 @@ li span {
 }
 
 .dots {
-	background: url("..image/dots.svg");
-	position: absolute;
-	top: 13px;
-	left: 0;
-	width: 100%;
-	z-index: -1;
+	background-image: url("../images/dots.svg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	text-align: center;
 }
 
 .size {
