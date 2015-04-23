@@ -113,18 +113,21 @@ li label {
 }
 
 li span {
-   float: right;
-   background: #fff;
-   padding-left: 20px;
+  float: right;
+  background: #fff;
+  padding-left: 20px;
 }
 
-.dotted .dotted-2 .dotted-3{
-   border-top: dotted 1px #000;
-   position: absolute;
-   top: 15px;
-   left: 0;
-   width: 100%;
-   z-index: 5;
+.span {
+	padding-left: 0;
+}
+
+.dots {
+	position: absolute;
+	top: 15px;
+	left: 0;
+	width: 100%;
+	z-index: -1;
 }
 
 .size {
